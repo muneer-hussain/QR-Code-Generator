@@ -11,7 +11,7 @@ function newQr() {
     qrImg.src = `https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=${qrVal}`;
     qrImg.style.cssText = "display: block;"
     qrBtn.textContent = "Generate New Qr"
-    qrInput.value = " ";
+    qrInput.value = "";
 }
 
 window.addEventListener("keydown", (e) => {
